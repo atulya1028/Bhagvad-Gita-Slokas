@@ -16,6 +16,10 @@ const ShlokaList = () => {
                 <span key={index} className="block">{line}</span>
               ))}
             </p>
+            <br />
+            <p className="text-xl">{sloka.meaning}</p>
+            <br />
+            <p className="text-xl text-start">{sloka.translation}</p>
           </li>
         ))}
       </ul>
